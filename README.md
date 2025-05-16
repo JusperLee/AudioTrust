@@ -212,5 +212,5 @@ We gratefully acknowledge [UltraEval-Audio](https://github.com/OpenBMB/UltraEval
 
 For questions or collaboration inquiries:
 
-* Kai Li — [GitHub](https://github.com/JusperLee)
+* Kai Li: tsinghua.kaili@gmail.com
 * Project Page — *Coming Soon*
