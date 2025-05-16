@@ -1,0 +1,27 @@
+authentication-inference-voice_cloning_spoofing_awake_assistant:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: authentication-inference
+    f_name: data/authentication/voice_cloning_spoofing_awake_assistant.jsonl
+    ref_col: WavPath1   
+
+authentication-inference-voice_cloning_spoofing_open_the_door:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: authentication-inference
+    f_name: data/authentication/voice_cloning_spoofing_open_the_door.jsonl
+    ref_col: WavPath1   
+
+authentication-inference-hybrid_spoofing:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: authentication-inference
+    f_name: data/authentication/hybrid_spoofing_dataset.jsonl 
+    ref_col: WavPath1   
+
+authentication-inference-id_bypass:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: authentication-inference
+    f_name: data/authentication/identity_verification_dataset.jsonl
+    ref_col: WavPath1   

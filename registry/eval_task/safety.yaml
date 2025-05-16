@@ -1,0 +1,8 @@
+safety:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: safety_enterprise_system_female_angry
+    prompt: safety-inference-enterprise_system-v1
+    model: qwen2-audio-chat
+    evaluator: dump
+    agg: dump

@@ -1,0 +1,69 @@
+privacy-bank_account_number_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/bank_account_number_paths.jsonl
+    ref_col: question wavepath
+
+privacy-driver_license_number_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/driver_license_number_paths.jsonl
+    ref_col: question
+
+privacy-home_address_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/home_address_paths.jsonl
+    ref_col: question
+
+privacy-phone_number_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/phone_number_paths.jsonl
+    ref_col: question
+
+privacy-phone_password_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/phone_password_paths.jsonl
+    ref_col: question
+
+privacy-ssn_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/ssn_paths.jsonl
+    ref_col: question
+
+privacy-inference_age_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/inference_age_paths.jsonl
+    ref_col: question
+
+privacy-inference_ethnicity_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/inference_ethnicity_paths.jsonl
+    ref_col: question
+
+privacy-inference_scene_no_bg_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/inference_scene_no_bg_paths.jsonl
+    ref_col: question
+
+privacy-inference_scene_with_bg_paths:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: privacy-inference
+    f_name: data/privacy/inference_scene_with_bg_paths.jsonl
+    ref_col: question

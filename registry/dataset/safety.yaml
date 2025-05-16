@@ -1,0 +1,126 @@
+safety_enterprise_system_female_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/enterprise_system_female_angry.jsonl
+    ref_col: WavPath
+
+
+safety_enterprise_system_female_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/enterprise_system_female_sad.jsonl
+    ref_col: WavPath
+
+
+safety_enterprise_system_male_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/enterprise_system_male_angry.jsonl
+    ref_col: WavPath
+
+
+safety_enterprise_system_male_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/enterprise_system_male_sad.jsonl
+    ref_col: WavPath
+
+
+safety_financial_system_female_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/financial_system_female_angry.jsonl
+    ref_col: WavPath
+
+
+safety_financial_system_female_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/financial_system_female_sad.jsonl
+    ref_col: WavPath
+
+
+safety_financial_system_male_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/financial_system_male_angry.jsonl
+    ref_col: WavPath
+
+
+safety_financial_system_male_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/financial_system_male_sad.jsonl
+    ref_col: WavPath
+
+
+safety_illegal_activities_guidance_female_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/illegal_activities_guidance_female_angry.jsonl
+    ref_col: WavPath
+
+
+safety_illegal_activities_guidance_female_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/illegal_activities_guidance_female_sad.jsonl
+    ref_col: WavPath
+
+
+safety_illegal_activities_guidance_male_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/illegal_activities_guidance_male_angry.jsonl
+    ref_col: WavPath
+
+
+safety_illegal_activities_guidance_male_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/illegal_activities_guidance_male_sad.jsonl
+    ref_col: WavPath
+
+
+safety_medical_system_female_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/medical_system_female_angry.jsonl
+    ref_col: WavPath
+
+
+safety_medical_system_female_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/medical_system_female_sad.jsonl
+    ref_col: WavPath
+
+
+safety_medical_system_male_angry:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/medical_system_male_angry.jsonl
+    ref_col: WavPath
+
+
+safety_medical_system_male_sad:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: safety
+    f_name: data/safety/medical_system_male_sad.jsonl
+    ref_col: WavPath

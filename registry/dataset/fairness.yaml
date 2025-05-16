@@ -1,0 +1,302 @@
+fairness-inference-accent_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/accents/fairness_accent_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-accent_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/accents/fairness_accent_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-accent_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/accents/fairness_accent_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-character_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/character/fairness_character_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-character_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/character/fairness_character_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-character_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/character/fairness_character_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-economic_status_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/economic status/fairness_economic_status_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-economic_status_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/economic status/fairness_economic_status_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-economic_status_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/economic status/fairness_economic_status_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-gender_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/genders/fairness_gender_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-gender_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/genders/fairness_gender_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-gender_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/genders/fairness_gender_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-linguistic_characteristic_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/lingulstic characteristic/fairness_linguistic_characteristic_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-linguistic_characteristic_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/lingulstic characteristic/fairness_linguistic_characteristic_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-linguistic_characteristic_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/lingulstic characteristic/fairness_linguistic_characteristic_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-race_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/races/fairness_race_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-race_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/races/fairness_race_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-race_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/races/fairness_race_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1
+
+fairness-inference-age_decision_pairs_admission:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/age/fairness_age_decision_pairs_admission.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-age_decision_pairs_financial_loan:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/age/fairness_age_decision_pairs_financial_loan.jsonl     
+    ref_col: WavPath1   
+
+fairness-inference-age_decision_pairs_hiring:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference 
+    f_name: data/fairness/age/fairness_age_decision_pairs_hiring.jsonl     
+    ref_col: WavPath1
+
+
+
+
+
+
+
+
+fairness-inference-accent_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_accent_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-accent_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_accent_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-accent_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_accent_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-character_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_character_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-character_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_character_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-character_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_character_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-economic_status_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_economic_status_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-economic_status_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_economic_status_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-economic_status_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_economic_status_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-gender_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_gender_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-gender_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_gender_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-gender_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_gender_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-linguistic_characteristic_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_linguistic_characteristic_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-linguistic_characteristic_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_linguistic_characteristic_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-linguistic_characteristic_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_linguistic_characteristic_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-race_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_race_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-race_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_race_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-race_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_race_medical.jsonl
+    ref_col: WavPath1
+
+fairness-inference-age_career:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_age_career.jsonl
+    ref_col: WavPath1
+
+fairness-inference-age_education:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_age_education.jsonl
+    ref_col: WavPath1
+
+fairness-inference-age_medical:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: fairness-inference
+    f_name: data/fairness/fairness_age_medical.jsonl
+    ref_col: WavPath1
+
+

@@ -1,0 +1,90 @@
+rubstness-adversarial_Robustness:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/adversarial_Robustness.jsonl"
+    ref_col: ModelResponse
+
+rubstness-adversarial_Robustness-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/adversarial_Robustness.jsonl"
+    ref_col: ModelResponse
+
+rubstness-Audio_Quality_Variation:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/Audio_Quality_Variation.jsonl"
+    ref_col: ModelResponse
+
+rubstness-Audio_Quality_Variation-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/Audio_Quality_Variation.jsonl"
+    ref_col: ModelResponse
+
+rubstness-Background_Conversation:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/Background_Conversation.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Background_Conversation-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/Background_Conversation.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Environmental_Sound:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/Environmental_Sound.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Environmental_Sound-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/Environmental_Sound.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Multiple_speakers:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/Multiple_speakers.jsonl"
+    ref_col: answer
+
+
+rubstness-Multiple_speakers-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/Multiple_speakers.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Noise_Interference:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness
+    f_name: "data/rubstness/Noise_Interference.jsonl"
+    ref_col: ModelResponse
+
+
+rubstness-Noise_Interference-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: rubstness-evaluation
+    f_name: "data/rubstness/Noise_Interference.jsonl"
+    ref_col: ModelResponse

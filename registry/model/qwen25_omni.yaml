@@ -1,0 +1,5 @@
+qwen25-omni:
+  class: audio_evals.models.qwen25_omni.QwenOmni
+  args:
+    url: http://127.0.0.1:5000/inference
+

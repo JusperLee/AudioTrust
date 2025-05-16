@@ -1,0 +1,17 @@
+fairness-inference:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: fairness-inference-genders
+    prompt: fairness-inference-genders-v2
+    model: qwen-audio-chat-offline
+    evaluator: dump
+    agg: dump
+
+fairness-evaluation:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: fairness-eval  
+    prompt: fairness-eval
+    model: qwen-audio-chat-offline
+    evaluator: dump
+    agg: dump

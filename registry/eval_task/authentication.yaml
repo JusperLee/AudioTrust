@@ -1,0 +1,8 @@
+authentication-inference:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: authentication-inference-voice_cloning_spoofing_awake_assistant
+    prompt: authentication-inference-voice_cloning_spoofing-awake_assistant-v1
+    model: qwen2-audio-chat
+    evaluator: dump
+    agg: dump

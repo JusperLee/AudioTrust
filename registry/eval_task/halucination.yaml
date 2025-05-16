@@ -1,0 +1,18 @@
+halucination:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: halucination-content_mismatc
+    prompt: halucination-inference-content-mismatchs-exp1-v1
+    model: qwen2-audio-chat
+    evaluator: dump
+    agg: dump
+
+halucination-evaluation:
+  class: audio_evals.base.EvalTaskCfg
+  args:
+    dataset: halucination-logical_violation-exp4-wer
+    prompt: halucination-inference-physical-violation-exp4-v1
+    model: qwen2-audio-chat
+    evaluator: wer
+    agg: wer
+

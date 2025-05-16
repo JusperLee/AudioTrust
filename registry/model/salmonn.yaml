@@ -1,0 +1,6 @@
+salmonn:
+  class: audio_evals.models.salmonn.SALMONN
+  args:
+    url: http://127.0.0.1:5001/inference
+    s2t: true
+

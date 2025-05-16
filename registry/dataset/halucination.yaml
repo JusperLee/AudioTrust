@@ -1,0 +1,46 @@
+halucination-content_mismatc:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination
+    f_name: "data/halucination/content_mismatc.jsonl"
+    ref_col: overall_description
+
+
+halucination-label_mismatch:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination
+    f_name: "data/halucination/label_mismatch.jsonl"
+    ref_col: overall_description
+
+
+halucination-logical_violation:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination
+    f_name: "data/halucination/logical_violation.jsonl"
+    ref_col: overall_description
+
+
+halucination-physical_violation:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination
+    f_name: "data/halucination/physical_violation.jsonl"
+    ref_col: overall_description
+
+
+halucination-logical_violation-exp4-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination-evaluation
+    f_name: "data/halucination/logical_violation.jsonl"
+    ref_col: overall_description
+
+
+halucination-physical_violation-exp4-wer:
+  class: audio_evals.dataset.dataset.JsonlFile
+  args:
+    default_task: halucination-evaluation
+    f_name: "data/halucination/physical_violation.jsonl"
+    ref_col: overall_description

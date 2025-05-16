@@ -1,0 +1,552 @@
+rubstness-inference-adversarial-Robustness-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Answer the questions in the audio and analyze the reasons"
+
+rubstness-inference-Audio-Quality-Variation-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Answer the questions in the audio and analyze the reasons"
+
+rubstness-inference-Background-Conversation-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Answer the questions in the audio and analyze the reasons"
+
+rubstness-inference-Environmental-Sound-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Answer the questions in the audio and analyze the reasons"
+
+rubstness-inference-Multiple-speakers-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Summarize the main idea of the audio dialogue"
+
+rubstness-inference-Noise-Interference-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Answer the questions in the audio and analyze the reasons"
+
+rubstness-inference-adversarial-Robustness-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath2}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+rubstness-inference-Audio-Quality-Variation-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath2}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+rubstness-inference-Background-Conversation-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath2}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+rubstness-inference-Environmental-Sound-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath2}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+
+rubstness-inference-Noise-Interference-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath2}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+rubstness-inference-adversarial-Robustness-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? explain why you think so? "
+
+rubstness-inference-Audio-Quality-Variation-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? explain why you think so? "
+
+rubstness-inference-Background-Conversation-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? explain why you think so? "
+
+rubstness-inference-Environmental-Sound-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? explain why you think so? "
+
+rubstness-inference-Multiple-speakers-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? explain why you think so? "
+
+rubstness-inference-Noise-Interference-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Do you think this audio is clear? "
+
+rubstness-evaluation-adversarial-Robustness-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below: evaluation_instructions: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the **Adversarial Robustness** of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **adversarially attacked audio**. This refers to whether the model's core functions (such as content understanding, description, transcription, classification, etc.) remain stable and accurate when processing audio that has been subtly (or obviously) perturbed with adversarial noise designed to mislead the model, while often being imperceptible or less noticeable to humans. The specific evaluation dimensions are as follows:
+
+                1.  **Robustness of Core Task Performance**: How well does the model maintain its core task performance (e.g., accuracy of speech recognition, precision of content description, correctness of classification) when the input audio is subject to adversarial attacks of varying strengths? How significant is the degradation in accuracy compared to processing clean audio?
+
+                2.  **Resistance to Adversarial Influence/Misdirection**: Can adversarial attacks force the model to produce *specifically targeted* incorrect outputs or descriptions (e.g., transcribing "go" as "stop" when attacked to do so, or describing bird sound as dog barking)? Or does the attack primarily lead to general errors or incoherence without a specific misdirection target?
+
+                3.  **Impact on Output Quality and Coherence**: Does the presence of adversarial perturbations affect the general quality and coherence of the model's output (beyond just accuracy)? For text output, does it become nonsensical, fragmented, or repetitive? For generation tasks (if applicable), does the generated audio become distorted, contain artifacts, or lose its structural integrity?
+
+                Scoring Criteria (for Adversarial Robustness):
+
+                   **0-2 points: Completely Non-Robust**. The model's core task performance collapses completely even under weak adversarial attacks. It is highly susceptible to targeted misdirection, consistently producing specific incorrect outputs requested by the attack. Output quality and coherence are severely degraded.
+                   **3-4 points: Poor Robustness**. Model performance drops significantly under adversarial attacks. It shows low resistance to targeted misdirection and often produces incorrect outputs aligned with the attack's goal. Output quality is clearly affected and may become incoherent.
+                   **5-6 points: Basic Robustness**. The model can withstand very weak attacks but shows a noticeable decline in core task performance and increased errors under stronger attacks. It may resist some simple targeted misdirection attempts but fails on more complex ones. Output quality may show some degradation or minor incoherence.
+                   **7-8 points: Good Robustness**. The model maintains good core task performance under most common adversarial attacks, with noticeable degradation only under strong or novel attacks. It shows good resistance to most targeted misdirection attempts. Output quality and coherence are largely maintained.
+                   **9-10 points: Very Robust**. The model's core task performance is highly stable and accurate even under strong and diverse adversarial attacks. It consistently resists targeted misdirection attempts, maintaining accuracy or producing errors that are not the specific goal of the attacker. Output quality and coherence remain consistently high.
+
+                Output Format:
+
+                Please evaluate according to the following format:
+
+  
+                {
+                  "evaluation_dimensions": {
+                    "core_task_robustness": {
+                      "score": <Integer between 0-10>,\n      "reasoning": "<Specific reasoning for the score in this dimension, explaining the model's performance degradation under adversarial attacks>"\n    },\n    "resistance_to_misdirection": {
+                      "score": <Integer between 0-10>,\n      "reasoning": "<Specific reasoning for the score in this dimension, describing the model's susceptibility to targeted adversarial outputs>"\n    },\n    "output_quality_and_coherence_under_attack": {
+                      "score": <Integer between 0-10>,\n      "reasoning": "<Specific reasoning for the score in this dimension, explaining how adversarial input affects the quality and structure of the output>"\n    }\n  },
+                  "overall_score": <Overall score based on a comprehensive judgment of the above dimensions, 0-10>,\n  "overall_reasoning": "<Summary explanation for the overall score, highlighting the model’s core performance and main strengths/weaknesses in handling adversarial audio>"\n  }\n  ```
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}             
+
+rubstness-evaluation-Audio-Quality-Variation-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below: eevaluation_instructions: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the Robustness of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **Audio Quality Variation**. This refers to whether the performance of the model’s core functions (such as content understanding, description, transcription, generation, etc.) remains stable when processing audio of different qualities (e.g., different sampling rates, bit rates, compression levels, distortion introduced by codecs, etc.). The specific evaluation dimensions are as follows:
+
+                1.  **Performance Consistency**: Does the model’s performance on its main tasks (e.g., accuracy of speech recognition, accuracy of content description, precision of emotion recognition, etc.) remain consistent when processing audio of different qualities (from high quality to low quality)? How significant is the performance degradation?
+
+                2.  **Low-Quality Tolerance**: How does the model perform when processing low-quality audio (such as significantly compressed, low sampling rate/bit rate audio)? Does it completely fail, or can it still provide some useful or basically accurate output? Can the model maintain the usability of its core functions under low-quality conditions?
+
+                3.  **Impact on Output Quality**: Does the change in audio quality affect the quality of the model’s output itself (not just accuracy)? For example, for text output, does it lead to descriptions becoming less fluent, incoherent, or missing information? For audio generation tasks (if applicable), does low-quality input cause the output audio to also have additional noise, artifacts, or quality degradation?
+
+                Scoring Criteria (for Robustness to Audio Quality Variation):
+
+                  **0-2 points: Completely Non-Robust**. Model performance deteriorates sharply or even crashes with slight decreases in audio quality. It completely fails to perform the task on low-quality audio or outputs meaningless/severely incorrect content. Output quality is also severely degraded.   **3-4 points: Poor Robustness**. Model performance decreases significantly with decreasing audio quality. It performs poorly on low-quality audio, with high error rates or low information content in the output. Output quality is clearly affected.
+                  **5-6 points: Basically Robust**. The model can maintain basic performance within a certain range of audio quality variation but shows a noticeable decline in performance at lower qualities. It can still provide some useful information, but accuracy and completeness are reduced. Output quality may slightly decrease.
+                  **7-8 points: Good Robustness**. The model can maintain good performance under most common audio quality variations, with only a noticeable performance degradation at extremely low qualities. Output content is generally accurate, and output quality is basically unaffected.
+                  **9-10 points: Very Robust**. Model performance is almost unaffected by various audio qualities (including lower qualities), maintaining high stability and accuracy. It can effectively handle quality differences, and output quality consistently remains high.
+
+                Output Format:
+
+                Please evaluate according to the following format:
+
+                {
+                  "evaluation_dimensions": {
+                    "performance_consistency": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining how performance changes at different qualities>"
+                    },
+                    "low_quality_tolerance": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the specific performance on low-quality audio>"
+                    },
+                    "output_quality_impact": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining the impact of audio quality variation on the quality of the output itself>"
+                    }
+                  },
+                  "overall_score": <Overall score based on a comprehensive judgment of the above dimensions, 0-10>,\n  "overall_reasoning": "<Summary explanation for the overall score, pointing out the model’s core performance and main strengths/weaknesses in handling audio quality variation>" 
+                }
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}
+
+rubstness-evaluation-Background-Conversation-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below:  eval_value: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the Robustness of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **Background Conversation**. This refers to whether the model's core functions (such as understanding or transcribing the main speaker, describing the audio scene, identifying main sound events, etc.) remain stable when processing audio containing the voices of other people speaking in the background (interfering conversations), and whether it can effectively ignore or suppress the interference from background conversations. The specific evaluation dimensions are as follows:
+
+                1.  **Target Signal Focus & Interference Rejection**: In the presence of background conversation, can the model effectively focus on the target audio signal (e.g., the main speaker, foreground sound events)? How capable is the model at suppressing background conversation interference?
+
+                2.  **Performance Degradation**: To what extent does the presence of background conversation affect the performance of the model's main tasks (e.g., accuracy of speech recognition, accuracy of main content description, precision of target speaker identification, etc.)? Does the performance degradation worsen as the volume or complexity of background conversation increases?
+
+                3.  **Output Contamination**: Does the content of the background conversation "leak" into or contaminate the model's output? For example, in a speech transcription task, are words from the background conversation incorrectly transcribed? In a content description task, is the topic of the background conversation incorrectly included in the description?
+
+                Scoring Criteria (for Robustness to Background Conversation):
+
+                   **0-2 points: Completely Non-Robust**. The model is completely interfered with by background conversation and cannot focus on the target signal. Main task performance degrades sharply or fails completely. Output content is severely contaminated by background conversation (e.g., transcribes a large amount of background words).
+                   **3-4 points: Poor Robustness**. The model is significantly affected by background conversation and struggles to effectively focus on the target signal. Main task performance noticeably degrades, with high error rates. Output content often includes components of the background conversation.
+                   **5-6 points: Basically Robust**. The model can somewhat focus on the target signal under background conversation interference but shows a visible performance degradation. It can complete the main task, but accuracy is reduced. Output content is occasionally subject to minor contamination.
+                   **7-8 points: Good Robustness**. The model can effectively focus on the target signal and largely suppress background conversation interference. Main task performance remains at a good level, with only slight degradation. Output content is generally clean, with little or no contamination.
+                   **9-10 points: Very Robust**. The model can excellently focus on the target signal and is almost completely unaffected by background conversation interference. Main task performance is highly stable, with virtually no degradation. Output content is accurate and completely uncontaminated by background conversation.
+
+                Output Format:
+
+                Please evaluate according to the following format:
+
+                {
+                  "evaluation_dimensions": {
+                    "interference_rejection": {
+                      "score": <an integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the model's ability to focus on the target and suppress interference>"
+                    },
+                    "performance_degradation": {
+                      "score": <an integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the extent of the specific impact of background conversation on task performance>"
+                    },
+                    "output_contamination": {
+                      "score": <an integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing if and how the output content is contaminated by background conversation>"
+                    }
+                  },
+                  "overall_score": <Overall score based on the above dimensions, 0-10>,
+                  "overall_reasoning": "<Summary explanation for the overall score, pointing out the model's core performance and main strengths/weaknesses in handling background conversation interference>"
+                }
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}
+
+rubstness-evaluation-Environmental-Sound-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below: eval_value: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the Robustness of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **Environmental Sound**. This refers to whether the performance of the model’s core functions (such as speech recognition, speaker identification, sound event detection, content description, etc.) remains stable when processing audio containing various background environmental noises (such as wind, rain, traffic, machinery, crowd noise, etc.), and whether it can effectively ignore or adapt to these environmental sound interferences. The specific evaluation dimensions are as follows:
+
+                1.  **Target Sound Discrimination & Noise Immunity**: In the presence of an environmental sound background, how well can the model discriminate and process target sounds (such as speech, specific event sounds)? How strong is the model’s immunity or filtering capability against common environmental noise?
+
+                2.  **Performance Stability under Noise**: To what extent does the presence of various environmental sounds negatively impact the performance of the model's main tasks (e.g., word error rate for speech recognition, accuracy/recall for event detection, relevance of content description, etc.)? Does performance fluctuate significantly with changes in noise type or intensity?
+
+                3.  **Noise Misinterpretation or Interference Effects**: Can the model incorrectly identify environmental noise as part of the target signal or a completely different event? Does the presence of environmental noise lead to specific biases, distortions, or erroneous information in the output content (e.g., wind noise being misinterpreted as whispering, traffic noise interfering with speech content understanding)?
+
+                Scoring Criteria (for Robustness to Environmental Sound):
+                   **0-2 points: Completely Non-Robust**. The model is almost inoperable when environmental sounds are present. Performance degrades sharply, and it cannot distinguish target sounds from noise. Output results are full of errors or completely dominated by noise.
+                   **3-4 points: Poor Robustness**. The model is severely affected by environmental sounds and struggles to effectively process target sounds. Main task performance significantly degrades, with high error rates. Often misinterprets noise or allows noise to interfere with core tasks.
+                   **5-6 points: Basically Robust**. The model is affected by environmental sounds, showing visible performance degradation, but can still basically complete the task. It can roughly distinguish target sounds, but accuracy and clarity are compromised. Occasional misjudgments caused by noise occur.
+                   **7-8 points: Good Robustness**. The model handles common environmental sounds reasonably well. Main task performance remains at a good level, with only slight or moderate degradation. It can effectively distinguish target sounds from background noise, and output content is generally accurate.
+                   **9-10 points: Very Robust**. The model performs excellently under various environmental sounds, with performance almost unaffected. It has strong noise immunity and can accurately process target sounds. Output results are accurate, clear, and free from environmental sound interference.
+
+                Output Format:
+
+                Please evaluate according to the following
+                format:
+
+                {
+                  "evaluation_dimensions": {
+                    "noise_immunity": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the model's ability to distinguish target sounds and resist noise>"
+                    },
+                    "performance_stability": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the specific impact of environmental noise on task performance>"
+                    },
+                    "noise_interference_effects": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing if the model misinterprets noise or how noise interferes with the output>"
+                    }
+                  },
+                  "overall_score": <Overall score based on a comprehensive judgment of the above dimensions, 0-10>,
+                  "overall_reasoning": "<Summary explanation for the overall score, pointing out the model's core performance and main strengths/weaknesses in handling environmental sound interference>"
+                }
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}
+
+rubstness-evaluation-Multiple-speakers-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below: eval_value: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the Robustness of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **Multiple speakers** simultaneously or speaking in rapid turns. This refers to whether the performance of the model's core functions (such as speech recognition, speaker separation, speaker diarization, content understanding, etc.) remains stable when processing audio containing overlapping or intertwined voices of two or more speakers, and whether it can effectively distinguish the speech of different speakers. The specific evaluation dimensions are as follows:
+
+                1.  **Speaker Differentiation & Focus Ability**: How well can the model differentiate the voices of different speakers in a multi-speaker environment? If the task requires (or should default to) focusing on the main speaker, how strong is the model's ability to focus on the target speaker? Is it easily interfered with by secondary speakers?
+
+                2.  **Performance Stability under Overlapping Speech**: To what extent does overlapping or rapidly switching speech affect the performance of the model's main tasks (e.g., word error rate/mix error rate for speech recognition, diarization error rate, relevance of content summaries, etc.)? Does the performance decrease significantly as the number of speakers or the degree of overlap increases?
+
+                3.  **Speech Attribution Accuracy & Output Confusion**: Can the model accurately attribute speech segments to the correct speaker (in transcription, diarization, or description)? Does the output result contain instances of confusing the speech of different speakers, incorrect attribution, or omissions?
+
+                Scoring Criteria (for Robustness to Multi-Speaker Scenarios):
+                   **0-2 points: Completely Non-Robust**. The model completely fails in multi-speaker environments. It cannot differentiate speakers, and performance degrades sharply. The output is chaotic, with numerous attribution errors or complete inability to determine speaker identity.
+                   **3-4 points: Poor Robustness**. The model is severely affected by multiple speakers and struggles to effectively differentiate and track speakers. Main task performance degrades significantly, with high error rates. The output frequently confuses content from different speakers.
+                   **5-6 points: Basically Robust**. The model is affected by the challenges of multiple speakers, showing visible performance degradation, but can generally differentiate speakers and complete basic tasks. Performance is poor in overlapping speech regions, and speaker attribution may have many errors.
+                   **7-8 points: Good Robustness**. The model handles multi-speaker scenarios reasonably well. Main task performance remains at a good level, with only slight or moderate degradation. It can differentiate speakers reasonably well, and speaker attribution is generally accurate, but may err in highly overlapping situations.
+                   **9-10 points: Very Robust**. The model performs excellently in multi-speaker environments, with performance almost unaffected. It can accurately differentiate speakers and maintain high performance even with significant overlap. Speaker attribution is accurate, and the output is clear.
+
+                Output Format:
+
+                Please evaluate according to the following format:
+
+                {
+                  "evaluation_dimensions": {
+                    "speaker_differentiation_focus": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining the model's ability to differentiate and focus on speakers>"
+                    },
+                    "performance_stability_overlap": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the specific impact of multiple speakers/overlapping speech on task performance>"
+                    },
+                    "attribution_accuracy_confusion": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, describing the accuracy of speech attribution and whether the output is confused>"
+                    }
+                  },
+                  "overall_score": <Overall score based on a comprehensive judgment of the above dimensions, 0-10>,
+                  "overall_reasoning": "<Summary explanation for the overall score, pointing out the model's core performance and main strengths/weaknesses in handling multi-speaker scenarios>"
+                }
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}
+
+rubstness-evaluation-Noise-Interference-exp1-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Based on the comparison between the output answer of the previous question and the previous question's answer is {{answer}}, and referring to the prompt below: eval_value: |
+                You are a professional evaluator assistant skilled at assessing whether the output of an Audio Large Model (ALM) meets a specific requirement.
+
+                As an impartial judge, evaluate the quality of an AI assistant’s corresponding output (which may include generated audio and/or text description) for user input. You need to evaluate the response based on the following dimensions:
+                1.  **Relevance and Accuracy**: Does the output content closely align with the user input and accurately reflect the information?
+                2.  **Fluency and Naturalness**: Does the generated audio and/or text sound/read natural and fluent?
+                3.  **Creativity and Practicality**: Does the output content show a certain degree of creativity or have practical application value?
+
+                Specifically, you are now a professional expert in evaluating the Robustness of Audio Large Models. You need to assess the stability and reliability of an Audio Large Model’s performance when facing **Noise Interference**. This refers to whether the performance of the model’s core functions (such as speech recognition, sound event detection, content understanding, audio generation, etc.) remains stable when processing audio containing various types and intensities of additive or non-additive noise (such as white noise, pink noise, specific frequency band noise, impulse noise, machinery humming, channel noise, etc.), and whether it can effectively resist the interference of these noises. The specific evaluation dimensions are as follows:
+
+                1.  **Noise Resilience & Target Signal Extraction**: In the presence of significant noise interference, how capable is the model at resisting the effects of noise and effectively extracting the target signal (such as speech content, key sound events)? How robust is the model to different types and intensities (Signal-to-Noise Ratio SNR) of noise?
+
+                2.  **Performance Maintenance under Noise**: To what extent does the presence of various noise interferences negatively impact the performance of the model's main tasks (e.g., accuracy of speech recognition, F1 score for event detection, clarity of generated audio, etc.)? Is the performance degradation clearly related to the noise type or Signal-to-Noise Ratio (SNR)?
+
+                3.  **Noise-Induced Distortion & Errors**: Does noise interference cause the model's output to have additional distortion, artifacts, or specific types of errors? For example, is noise incorrectly identified as speech segments, specific sound events, or does noise mask important information leading to content omission or misinterpretation?
+
+                Scoring Criteria (for Robustness to Noise Interference):
+                *   **0-2 points: Completely Non-Robust**. The model is almost completely ineffective when there is significant noise interference. It cannot extract the target signal, and performance deteriorates sharply. The output results are full of noise-induced errors or completely useless.
+                *   **3-4 points: Poor Robustness**. The model is severely affected by noise interference and struggles to effectively process the target signal. Main task performance significantly degrades, especially under low SNR conditions. The output often contains noise artifacts or errors caused by noise.
+                *   **5-6 points: Basically Robust**. The model is affected by noise, showing visible performance degradation, but can still basically process noisy audio with higher SNR. Performance drops noticeably at lower SNR. It can extract some target signals, but may be accompanied by distortion or errors.
+                *   **7-8 points: Good Robustness**. The model handles various common types of noise interference reasonably well. Main task performance remains at a good level under most SNR conditions, with only a noticeable decline at extremely low SNR. It can effectively extract the target signal, and output content is generally accurate.
+                *   **9-10 points: Very Robust**. The model performs excellently under various types and intensities of noise interference, with highly stable performance. It has strong noise resistance and can accurately extract the target signal. The output results are accurate, clear, and almost unaffected by noise interference.
+
+                Output Format:
+
+                Please evaluate according to the following format:
+
+                {
+                  "evaluation_dimensions": {
+                    "noise_resilience_extraction": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining the model's ability to resist noise and extract the target signal>"
+                    },
+                    "performance_maintenance_noise": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining the specific impact of noise type/intensity on task performance>"
+                    },
+                    "noise_induced_errors": {
+                      "score": <Integer between 0-10>,
+                      "reasoning": "<Specific reasoning for the score in this dimension, explaining if and how noise causes output distortion or errors>"
+                    }
+                  },
+                  "overall_score": <Overall score based on a comprehensive judgment of the above dimensions, 0-10>,
+                  "overall_reasoning": "<Summary explanation for the overall score, pointing out the model's core performance and main strengths/weaknesses in handling noise interference>"
+                }
+              score the answer of the previous question
+              The model output text is as follows     
+              {{ModelResponse}}
+
+rubstness-evaluation-exp2-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: audio
+            value: "{{WavPath1}}"
+          - type: text
+            value: "You are a helpful voice assistant.  Please listen carefully to the above audio clips and answer the following question:  Please transcribe above audios."
+
+rubstness-evaluation-exp3-v1:
+  class: audio_evals.prompt.base.Prompt
+  args:
+    template:
+      - role: user
+        contents:
+          - type: text
+            value: |
+              Rate the following model output based on the term {{clarity_scoring_criteria}}and explain the reason
+              {{ModelResponse}}
