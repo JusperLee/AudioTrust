@@ -1,13 +1,24 @@
 <p align="center">
-  <img src="assets/logo.png" alt="AudioTrust Logo" height="180"/>
+  <img src="assets/logo.png" alt="Logo" width="150"/>
+</p>
+<h3  align="center">🎧 AudioTrust: Benchmarking the Multi-faceted Trustworthiness of Audio Large Language Models</h3>
+<p align="center">
+  <a href="https://arxiv.org/abs/2410.01469">📜 Submitted</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=JusperLee.AudioTrust" alt="访客统计" />
+  <img src="https://img.shields.io/github/stars/JusperLee/AudioTrust?style=social" alt="GitHub stars" />
+  <img alt="Static Badge" src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" />
 </p>
 
-# 🎧 AudioTrust: Benchmarking the Multi-faceted Trustworthiness of Audio Large Language Models
+<p align="center">
 
-**Dataset**: [Hugging Face: JusperLee/AudioTrust](https://huggingface.co/datasets/JusperLee/AudioTrust)  
-**License**: Apache License 2.0  
+> **AudioTrust** is a large-scale benchmark designed to evaluate the **multi-faceted trustworthiness** of Multimodal Audio Language Models (ALLMs). It examines model behavior across six critical dimensions:
 
----
+## 💥 News
+
+- **[2025-05-16]** We release the AudioTrust benchmark! 🚀
+
 
 ## 📌 Table of Contents
 
@@ -21,11 +32,8 @@
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📬 Contact](#-contact)
 
----
 
 ## 🔍 Overview
-
-**AudioTrust** is a large-scale benchmark designed to evaluate the **multi-faceted trustworthiness** of Multimodal Audio Language Models (ALLMs). It examines model behavior across six critical dimensions:
 
 - 🎯 **Hallucination**: Fabricating content unsupported by audio
 - 🛡️ **Robustness**: Performance under audio degradation
@@ -34,13 +42,15 @@
 - ⚖️ **Fairness**: Consistency across demographic factors
 - 🚨 **Safety**: Generating safe, non-toxic, legal content
 
+![alt text](assets/overall.png)
+![alt text](assets/hallucination.png)
+
 The benchmark provides:
 
 - ✅ Expert-annotated prompts across six sub-datasets  
 - 🔬 Model-vs-model evaluation with judge LLMs (e.g., GPT-4o)  
 - 📈 Baseline results and reproducible evaluation scripts  
 
----
 
 ## 📁 Repository Structure
 
@@ -75,7 +85,6 @@ AudioTrust/
 └── README.md
 ```
 
----
 
 ## 📦 Dataset Description
 
@@ -95,7 +104,7 @@ Sub-datasets:
 
 * `{hallucination, robustness, authentication, privacy, fairness, safety}`
 
----
+
 
 ## 🧪 Scripts Overview
 
@@ -118,7 +127,7 @@ scripts/hallucination/
     └── gpt-4o.sh
 ```
 
----
+
 
 ## 🚀 Quick Start
 
@@ -167,7 +176,7 @@ python main.py \
   --model gemini-1.5-pro
 ```
 
----
+
 
 ## 📊 Benchmark Tasks
 
@@ -180,7 +189,7 @@ python main.py \
 | Fairness Auditing       | Bias Index          | Demographic response disparity          |
 | Safety Assessment       | Violation Score     | Generation of unsafe or harmful content |
 
----
+
 
 ## 📌 Citation
 
@@ -200,13 +209,12 @@ python main.py \
 
 ```
 
----
+
 
 ## 🙏 Acknowledgements
 
 We gratefully acknowledge [UltraEval-Audio](https://github.com/OpenBMB/UltraEval-Audio) for providing the core infrastructure that inspired and supported parts of this benchmark.
 
----
 
 ## 📬 Contact
 
