@@ -43,7 +43,7 @@
 - 🚨 **Safety**: Generating safe, non-toxic, legal content
 
 ![alt text](assets/overall.png)
-![alt text](assets/hallucination.png)
+![alt text](assets/features.png)
 
 The benchmark provides:
 
