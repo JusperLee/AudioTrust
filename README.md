@@ -43,7 +43,7 @@
 - 🚨 **Safety**: Generating safe, non-toxic, legal content
 
 ![alt text](assets/overall.png)
-![alt text](assets/hallucination.png)
+![alt text](assets/features.png)
 
 The benchmark provides:
 
@@ -221,4 +221,4 @@ We gratefully acknowledge [UltraEval-Audio](https://github.com/OpenBMB/UltraEval
 For questions or collaboration inquiries:
 
 * Kai Li: tsinghua.kaili@gmail.com
-* Project Page — *Coming Soon*
+* Xinfeng Li: lxfmakeit@gmail.com
