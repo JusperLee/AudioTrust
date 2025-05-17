@@ -1,7 +1,7 @@
 <p align="center">
   <img src="assets/logo.png" alt="Logo" width="150"/>
 </p>
-<h3  align="center">🎧 AudioTrust: Benchmarking the Multi-faceted Trustworthiness of Audio Large Language Models</h3>
+<h3  align="center">🎧 AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models</h3>
 <p align="center">
   <a href="https://arxiv.org/abs/2410.01469">📜 Submitted</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
 
@@ -13,7 +13,7 @@
 
 <p align="center">
 
-> **AudioTrust** is a large-scale benchmark designed to evaluate the **multi-faceted trustworthiness** of Multimodal Audio Language Models (ALLMs). It examines model behavior across six critical dimensions:
+> **AudioTrust** is a large-scale benchmark designed to evaluate the **multifaceted trustworthiness** of Multimodal Audio Language Models (ALLMs). It examines model behavior across six critical dimensions:
 
 ## 💥 News
 
@@ -195,7 +195,7 @@ python main.py \
 
 ```bibtex
 @misc{audiotrust2025,
-  title={AudioTrust: A Benchmark for Robustness and Hallucination Evaluation in Multimodal Audio Language Models},
+  title={AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models},
   author={
     Kai Li and Can Shen and Yile Liu and Jirui Han and Kelong Zheng and Xuechao Zou and 
     Lionel Z. Wang and Xingjian Du and Shun Zhang and Hanjun Luo and Yingbin Jin and Xinxin Xing and 
@@ -220,5 +220,5 @@ We gratefully acknowledge [UltraEval-Audio](https://github.com/OpenBMB/UltraEval
 
 For questions or collaboration inquiries:
 
-* Kai Li: tsinghua.kaili@gmail.com
-* Xinfeng Li: lxfmakeit@gmail.com
+* Kai Li: tsinghua.kaili@gmail.com, Xinfeng Li: lxfmakeit@gmail.com
+* Project Page — *Coming Soon*
