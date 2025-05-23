@@ -3,7 +3,7 @@
 </p>
 <h3  align="center">🎧 AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models</h3>
 <p align="center">
-  <a href="https://arxiv.org/abs/2410.01469">📜 Submitted</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
+  <a href="https://arxiv.org/abs/2505.16211">📜 Submitted</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=JusperLee.AudioTrust" alt="访客统计" />
