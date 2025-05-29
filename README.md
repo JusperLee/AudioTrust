@@ -194,19 +194,12 @@ python main.py \
 ## 📌 Citation
 
 ```bibtex
-@misc{audiotrust2025,
+@article{li2025audiotrust,
   title={AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models},
-  author={
-    Kai Li and Can Shen and Yile Liu and Jirui Han and Kelong Zheng and Xuechao Zou and 
-    Lionel Z. Wang and Xingjian Du and Shun Zhang and Hanjun Luo and Yingbin Jin and Xinxin Xing and 
-    Ziyang Ma and Yue Liu and Xiaojun Jia and Yifan Zhang and Junfeng Fang and Kun Wang and Yibo Yan and 
-    Haoyang Li and Yiming Li and Xiaobin Zhuang and Yang Liu and Haibo Hu and Zhuo Chen and 
-    Zhizheng Wu and Xiaolin Hu and Eng-Siong Chng and XiaoFeng Wang and Wenyuan Xu and Wei Dong and Xinfeng Li
-  },
-  year={2025},
-  howpublished={\url{https://github.com/JusperLee/AudioTrust}},
+  author={Li, Kai and Shen, Can and Liu, Yile and Han, Jirui and Zheng, Kelong and Zou, Xuechao and Wang, Zhe and Du, Xingjian and Zhang, Shun and Luo, Hanjun and others},
+  journal={arXiv preprint arXiv:2505.16211},
+  year={2025}
 }
-
 ```
 
 
