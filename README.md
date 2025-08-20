@@ -152,6 +152,15 @@ from datasets import load_dataset
 dataset = load_dataset("JusperLee/AudioTrust", split="hallucination")
 ```
 
+#### Materialize the HF dataset to the project `data/` layout
+
+If you plan to run the evaluation scripts that expect a local `data/` folder, first materialize the Hugging Face dataset into the required directory structure:
+
+```bash
+python utils/materialize_hf_audio.py --dataset-path JusperLee/AudioTrust
+```
+
+
 ### 3. Run Inference and Evaluation
 
 ```bash
