@@ -24,7 +24,7 @@ from datasets import load_dataset
 try:
     from tqdm.auto import tqdm
 except Exception:  # pragma: no cover
-    tqdm = lambda x, **_: x  # 简洁降级：无进度条也可运行
+    tqdm = lambda x, **_: x 
 
 
 # -----------------------------
