@@ -1,0 +1,5 @@
+step-fun:
+  class: audio_evals.models.step_fun.StepFunRealtime
+  args:
+    url: http://localhost:8000/inference
+

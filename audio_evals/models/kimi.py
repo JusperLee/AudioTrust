@@ -8,7 +8,7 @@ from audio_evals.models.model import APIModel
 import requests
 
 
-class QwenOmni(APIModel):
+class KimiAudio(APIModel):
     def __init__(self, url, sample_params: Dict[str, any] = None):
         super().__init__(True, sample_params)
         self.url = url
@@ -43,7 +43,7 @@ class QwenOmni(APIModel):
             resp = requests.post(self.url, json=data)
             resp.raise_for_status()
             resp_json = resp.json()
-            text = resp_json.get("result", "")
+            text = resp_json.get("text_output", "")
         except Exception as e:
             text = f"请求失败: {e}"
 

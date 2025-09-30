@@ -1,0 +1,5 @@
+step-audio2:
+  class: audio_evals.models.step_audio2.StepAudio2
+  args:
+    url: http://localhost:5000/step-audio2
+

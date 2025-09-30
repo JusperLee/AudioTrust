@@ -1,0 +1,5 @@
+OpenS2S:
+  class: audio_evals.models.opens2s.OpenS2S
+  args:
+    url: http://localhost:21002/worker_generate_stream
+

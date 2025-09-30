@@ -8,7 +8,7 @@ from audio_evals.models.model import APIModel
 import requests
 
 
-class QwenOmni(APIModel):
+class StepAudio2(APIModel):
     def __init__(self, url, sample_params: Dict[str, any] = None):
         super().__init__(True, sample_params)
         self.url = url
@@ -33,19 +33,21 @@ class QwenOmni(APIModel):
         assert os.path.exists(audio_file), f"{audio_file} is not exists."
 
         audio_file = os.path.abspath(audio_file)
-
+        headers = {"Content-Type": "application/json"}
         # 发送POST请求
         data = {
             "text": content,
             "audio_path": audio_file
         }
-        try:
-            resp = requests.post(self.url, json=data)
-            resp.raise_for_status()
-            resp_json = resp.json()
-            text = resp_json.get("result", "")
-        except Exception as e:
-            text = f"请求失败: {e}"
 
-        return json.dumps({"text": text}, ensure_ascii=False)
+        response = requests.post(self.url, json=data, headers=headers)
+        result = ""
+        if response.status_code == 200:
+            result = response.json()["result"]
+        else:
+            result = response.text
+
+       
+
+        return json.dumps({"text": result}, ensure_ascii=False)
 

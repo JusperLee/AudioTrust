@@ -1,0 +1,5 @@
+kimi-audio:
+  class: audio_evals.models.kimi.KimiAudio
+  args:
+    url: http://localhost:8000/kimi_infer
+
