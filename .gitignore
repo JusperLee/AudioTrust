@@ -1,6 +1,16 @@
-data
 envs
 checkpoints
 res
 **__pycache__**
 log
+
+# ---------- data 规则 ----------
+# 1. 忽略 data 下所有内容（包括子目录里的）
+data/**
+
+# 2. 把 data 下所有子目录重新放出来，
+#    这样 Git 才会继续往里递归匹配后面的规则
+!data/**/
+
+# 3. 最后，把 data/*/*.jsonl 再从忽略中排除（即：跟踪这些文件）
+!data/*/*.jsonl
