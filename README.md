@@ -3,7 +3,7 @@
 </p>
 <h3  align="center">🎧 AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models</h3>
 <p align="center">
-  <a href="https://arxiv.org/abs/2505.16211">📜 Submitted</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
+  <a href="https://arxiv.org/abs/2505.16211">📜ICLR'26</a> | <a href="https://cslikai.cn/AudioTrust/">🎶 Demo</a> | <a href="https://huggingface.co/datasets/JusperLee/AudioTrust">🤗 Dataset</a>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=JusperLee.AudioTrust" alt="访客统计" />
@@ -17,7 +17,8 @@
 
 ## 💥 News
 
- - **[2025-09-30]** Added support for [Kimi-Audio](https://github.com/MoonshotAI/Kimi-Audio), [Step-Fun](https://github.com/stepfun-ai/Step-Audio), [Step-Audio2](https://github.com/stepfun-ai/Step-Audio2), [OpenS2S](https://github.com/CASIA-LM/OpenS2S), and [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni).
+- **[2026-01-26]** AudioTrust got accepted to ICLR'26! 🚀
+- **[2025-09-30]** Added support for [Kimi-Audio](https://github.com/MoonshotAI/Kimi-Audio), [Step-Fun](https://github.com/stepfun-ai/Step-Audio), [Step-Audio2](https://github.com/stepfun-ai/Step-Audio2), [OpenS2S](https://github.com/CASIA-LM/OpenS2S), and [Qwen2.5-Omni](https://github.com/QwenLM/Qwen2.5-Omni).
 - **[2025-05-16]** We release the AudioTrust benchmark! 🚀
 
 
@@ -204,11 +205,11 @@ python main.py \
 ## 📌 Citation
 
 ```bibtex
-@article{li2025audiotrust,
+@inproceedings{li2025audiotrust,
   title={AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large Language Models},
   author={Li, Kai and Shen, Can and Liu, Yile and Han, Jirui and Zheng, Kelong and Zou, Xuechao and Wang, Zhe and Du, Xingjian and Zhang, Shun and Luo, Hanjun and others},
-  journal={arXiv preprint arXiv:2505.16211},
-  year={2025}
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
 }
 ```
 
